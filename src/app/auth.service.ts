@@ -9,6 +9,6 @@ export class AuthService {
     constructor(private http: Http) {}
     
     register(user) {
-        this.http.post(this.BASE_URL + '/register', user).subscribe();
+        this.http.post(this.BASE_URL + 'register', user).subscribe();
     }
 }
